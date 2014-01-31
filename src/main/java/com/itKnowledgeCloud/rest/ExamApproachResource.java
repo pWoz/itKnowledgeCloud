@@ -2,6 +2,7 @@ package com.itKnowledgeCloud.rest;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
@@ -24,12 +25,11 @@ public class ExamApproachResource {
 		return Response.ok().entity(examApproach).build();
 	}
 	
-	@GET
-	@Path("/test")
-	@Consumes("text/plain")
-	@Produces(MediaType.APPLICATION_JSON)
-	public Response test(){
-		return Response.ok().entity(new User()).build();
+	@POST
+	public Response addNewExamApproach(ExamApproach approach){
+		return Response.ok().build();
 	}
+	
+	
 	
 }

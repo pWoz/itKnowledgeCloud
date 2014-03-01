@@ -13,10 +13,16 @@ import javax.ws.rs.core.Response;
 import com.itKnowledgeCloud.model.Exam;
 import com.itKnowledgeCloud.model.ExamApproach;
 import com.itKnowledgeCloud.model.User;
+import com.itKnowledgeCloud.util.AppProperties;
+import com.itKnowledgeCloud.util.Properties;
 
 @Path("/examApproach")
 public class ExamApproachResource {
 
+	@Inject
+	@Properties
+	private AppProperties appProperties;
+	
 	@GET
 	@Path("{examNo}")
 	@Consumes("text/plain")
@@ -30,7 +36,4 @@ public class ExamApproachResource {
 	public Response addNewExamApproach(ExamApproach approach){
 		return Response.ok().build();
 	}
-	
-	
-	
 }

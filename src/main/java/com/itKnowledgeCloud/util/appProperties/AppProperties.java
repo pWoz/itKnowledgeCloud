@@ -1,4 +1,4 @@
-package com.itKnowledgeCloud.util;
+package com.itKnowledgeCloud.util.appProperties;
 
 import java.io.IOException;
 import java.io.InputStream;

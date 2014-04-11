@@ -206,6 +206,11 @@
         	<artifactId>picketbox</artifactId>
         	<version>4.0.20.Beta2</version>
         </dependency>
+        <dependency>
+        	<groupId>org.mybatis</groupId>
+        	<artifactId>mybatis</artifactId>
+        	<version>3.2.7</version>
+        </dependency>
     </dependencies>
 
     <build>

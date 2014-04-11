@@ -13,8 +13,8 @@ import javax.ws.rs.core.Response;
 import com.itKnowledgeCloud.model.Exam;
 import com.itKnowledgeCloud.model.ExamApproach;
 import com.itKnowledgeCloud.model.User;
-import com.itKnowledgeCloud.util.AppProperties;
-import com.itKnowledgeCloud.util.Properties;
+import com.itKnowledgeCloud.util.appProperties.AppProperties;
+import com.itKnowledgeCloud.util.appProperties.Properties;
 
 @Path("/examApproach")
 public class ExamApproachResource {

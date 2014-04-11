@@ -1,4 +1,4 @@
-package com.itKnowledgeCloud.util;
+package com.itKnowledgeCloud.util.appProperties;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
